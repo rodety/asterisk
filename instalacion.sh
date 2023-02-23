@@ -29,9 +29,9 @@ sudo cp -R ../lcd /etc/
 sudo cp crontab /etc/
 
 
-echo "Copiando el archivo que inicia el el streaming a OPENOB.........................................................." 
 sudo cp rc.local /etc/rc.local
 sudo cp -R lcd/ /etc/
+sudo cp lcd_encoder.py /etc/lcd
 
 cd /etc/lcd
 sudo ./install.sh
