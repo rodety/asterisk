@@ -1,8 +1,8 @@
 # asterisk
 Asterisk on Raspebrry pi 3b+ Trunk Inbound Outbound Extensions
 To Install
-sudo apt-get update
-sudo apt-get install asterisk
 
+sudo ./instalacion.sh
 
-#Copy the file sip.conf and extensions.conf to /etc/asterisk
+Reboot default ip 192.168.1.241
+
